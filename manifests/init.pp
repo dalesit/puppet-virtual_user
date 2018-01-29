@@ -66,7 +66,7 @@ define virtual_user (
     managehome       => $managehome,
     purge_ssh_keys   => $ssh_key_purge,
     password_max_age => $password_max_age,
-    password_min_age => $password_max_age,
+    password_min_age => $password_min_age,
     password         => $password,
     comment          => $comment,
   }
